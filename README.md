@@ -1,5 +1,3 @@
-# OvpnMan
-OpenVPN Connection Manager
 ![Supported Python versions](https://img.shields.io/badge/python-2.7-blue.svg)
 ![Supported OS](https://img.shields.io/badge/Supported%20OS-Linux-yellow.svg)
 
@@ -19,5 +17,5 @@ I have a list of features I want to add as I'm learning.
 <code>cd OvpnMAN</code><br />
 <code>pip install -r requirements.txt</code><br />
 <code>python OvpnMan.py</code>
-ovpn profiles
+ovpn profiles<br />
 <code>copy your .ovpn profiles to ovpnconfs/ directory in the tool's folder.</code>
