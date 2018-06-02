@@ -4,7 +4,7 @@
 # OvpnMan
 OpenVPN Connection Manager
 
-<a target="_blank" href="https://github.com/penaxr/OvpnMan/screen.png"><img src="https://github.com/penaxr/OvpnMan/screen.png"/></a>
+<a target="_blank" href="https://raw.githubusercontent.com/penaxr/OvpnMan/master/screen.png"><img src="https://raw.githubusercontent.com/penaxr/OvpnMan/master/screen.png"/></a>
 
 This is a basic OpenVPN Connection manager I made while learning python<br /><br />
 This is the first python script I wrote. Feel free to send feedback.<br />
