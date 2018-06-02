@@ -96,9 +96,8 @@ def sess_menu():
          print colors["magenta"] + (os.path.join(file))
 
          print colors["white"] + "\n[9] Back"
-    choice = raw_input("[-] Choose: ")
-    if choice == "penaxr.ovpn":
-        ovpn_penaxr()
+    vprofile = raw_input("[-] Choose: ")
+    ovpn_profile(vprofile)
     #exec_menu(choice)
     return
 
@@ -123,8 +122,8 @@ def retour():
 def userquit():
     sys.exit()
 # defs des profiles vpn
-def ovpn_penaxr():
-    os.system("openvpn --config ovpnconfs/penaxr.ovpn")
+def ovpn_profile(profile):
+    os.system('openvpn --config ovpnconfs/"{0}"'.format(profile))
 # defs des menu
 menu_actions = {
     'base_menu': base_menu,
